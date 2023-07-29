@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+    .header__wrapper,
+    .footer___wrapper,
+    .card__wrapper {
+      padding: 0 18px;
+    }
+    .burger-menu_nav {
+        width: 100vw;
+    }
+    .header {
+        padding: 18px 0 30px;
+    }
+    .card__wrapper {
+        display: block;
+    }
+    .card__slider {
+        position: relative;
+        width: 100%;
+        padding: 2em 0 0 0;
+        height: 500px;
+    }
+    .card__specification {
+        width: 100%;
+    }
+    .card__description {
+        padding: 20px 0;
+    }
+    .card__size {
+        width: 280px;
+    }
+    .footer {
+        padding: 25px 0 70px;
+    }
+    .footer___wrapper {
+        display: block;
+    }
+    .footer__block {
+        width: 100%;
+        gap: 1em;
+    }
+    .footer__form {
+        width: 100%;
+    }
+    .footer__form .footer__name {
+        width: 255px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .card__slider {
+      height: 400px;
+    }
+    }
